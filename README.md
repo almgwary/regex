@@ -1,8 +1,8 @@
 # Regex
 Collection of useful regex
 
-# ngx-translate
-Auto inject translate pipe in the html tags and placeholders
+# Ngx Translate
+ngx-translate Auto inject translate pipe in the html tags and placeholders
 1. change tag
 
      > find: `(?<=>)([\w\s]+)(?=</)`
@@ -18,3 +18,13 @@ Auto inject translate pipe in the html tags and placeholders
   
   
 ________________________
+
+# Email
+
+     ^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$
+
+# Password
+
+Password must be at least 9 characters long, contain letters and numbers, special characters
+
+      /^(?=.*[A-Z])(?=.*[!@#\$%\^&\*])(?=.{9,})/
